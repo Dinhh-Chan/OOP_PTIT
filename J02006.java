@@ -18,6 +18,9 @@ public class J02006 {
             System.out.print(num + " ");
         }
 
+
+        
+
         scanner.close();
     }
 }
