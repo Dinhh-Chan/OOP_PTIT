@@ -15,16 +15,16 @@ public class J02011 {
                 if (arr[idx] > arr[j]){
                     idx = j; 
                 }
-                if (idx != i){
-                    int temp = arr[idx];
-                    arr[idx]= arr[i];
-                    arr[i]= temp ;
-                }
-                System.out.print("Buoc " + (i + 1) + ": ");
+            }
+            if (idx != i){
+                int temp = arr[idx];
+                arr[idx]= arr[i];
+                arr[i]= temp ;
+            }
+            System.out.print("Buoc " + (i + 1) + ": ");
                 for(int k = 0; k < n; k++) System.out.print(arr[k] + " ");
                 System.out.println();
 
-            }
         }
     }
 }
