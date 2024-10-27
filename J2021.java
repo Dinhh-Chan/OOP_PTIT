@@ -12,6 +12,10 @@ public class J2021 {
             count ++ ; 
             return;
         }
+        for (int i = start; i <= n; i++) {
+            com[index] = i;
+            solve(i + 1, com, index + 1);
+        }
 
     } 
     public static void main(String[] args) {
