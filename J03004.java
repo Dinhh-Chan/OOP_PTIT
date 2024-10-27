@@ -13,7 +13,7 @@ public class J03004 {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int  t= sc.nextInt();
+        int  t= Integer.parseInt(sc.nextLine().trim());
         for (int i = 0 ; i < t ; i++){
             String name = sc.nextLine();
             System.out.println(solve(name));
